@@ -13,7 +13,7 @@ const Work = () =>{
                 </Title>
                 <P>
                     MyTeam-Manager is a football team schedule and record management application
-                    developed as a toy project after taking mobile app development class.
+                    developed as a toy project after taking mobile app development course.
                     It is composed of various activites necessary for soccer team management
                     on the Android framework. 
                     To make it easier for users to see, I used libraries such as MPAndroidChart
