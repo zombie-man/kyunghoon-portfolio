@@ -1,5 +1,5 @@
-import {Container,Badge, Link,List,ListItem, Heading} from '@chakra-ui/react'
-import {ExternalLinkIcon} from '@chakra-ui/icons'
+import {Container,Badge,List,ListItem, Heading} from '@chakra-ui/react'
+// import {ExternalLinkIcon} from '@chakra-ui/icons'
 import{Title,WorkImage,Meta} from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -12,7 +12,7 @@ const Work = () =>{
                     AlgoReco <Badge>2022</Badge>
                 </Title>
                 <P>
-                    "AlgoReco" is a problem recommendation and learning management application for people
+                    &quot;AlgoReco&quot; is a problem recommendation and learning management application for people
                     learning algorithms thorough the algorithm online judge platform. 
                     We designed a personalized problem service for effective learning of users. 
                     Also We have developed an application that has better usability than traditional web services by adding 

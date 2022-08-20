@@ -1,4 +1,4 @@
-import {Container, Heading, SimpleGrid, Divider} from '@chakra-ui/react'
+import {Container, Heading, SimpleGrid} from '@chakra-ui/react'
 import Section from '../components/section'
 import {WorkGridItem} from '../components/grid-items'
 
@@ -28,7 +28,7 @@ const Works = () => {
                 <Section delay={0.4}>
                     <WorkGridItem id="twitch-highlighter" title="Twitch Highlighter" thumbnail={thumbTwitchHighlighter}>
                         Web service that generates highlight
-                        video of twitch's streaming by crawling chat logs
+                        video of twitch&apos;s streaming by crawling chat logs
                     </WorkGridItem>
                 </Section>
 

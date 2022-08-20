@@ -1,5 +1,5 @@
-import {Container,Badge, Link,List,ListItem, Heading} from '@chakra-ui/react'
-import {ExternalLinkIcon} from '@chakra-ui/icons'
+import {Container,Badge,List,ListItem, Heading} from '@chakra-ui/react'
+// import {ExternalLinkIcon} from '@chakra-ui/icons'
 import{Title,WorkImage,Meta} from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -16,7 +16,7 @@ const Work = () =>{
                     improve the data structure of the Linux kernel.
                     Our team implemented a skiplist with the goal of improving the 
                     insert/delete/read performance of linkedlist. I was able to experience
-                    CLI environment and using various test functions such as 'assert'.
+                    CLI environment and using various test functions such as &apos;assert&apos;.
                 </P>
 
                 <List ml={4} my={4}>

@@ -1,5 +1,5 @@
-import {Container,Badge, Link,List,ListItem, Heading} from '@chakra-ui/react'
-import {ExternalLinkIcon} from '@chakra-ui/icons'
+import {Container,Badge,List,ListItem, Heading} from '@chakra-ui/react'
+// import {ExternalLinkIcon} from '@chakra-ui/icons'
 import{Title,WorkImage,Meta} from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -17,7 +17,7 @@ const Work = () =>{
                     crawls chatlogs, creates a highlight video and uploads it to website.
                 </P>
                 <P>
-                    I implemented web server application that receives user's input and create 
+                    I implemented web server application that receives user&apos;s input and create 
                     highlight video. Crawling chatlogs and video production process took a long time, so
                     I used celery to solve this problem.
                 </P>

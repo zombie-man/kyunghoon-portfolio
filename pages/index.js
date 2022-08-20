@@ -9,7 +9,7 @@ import {
     Link,
     List,
     ListItem,
-    SimpleGrid,
+    // SimpleGrid,
     useColorModeValue
 } from '@chakra-ui/react'
 
@@ -18,13 +18,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection,BioYear } from '../components/bio'
-import { GridItem } from '../components/grid-items'
-import {
-    IoLogoTwitter,
-    IoLogoInstagram,
-    IoLogoGithub,
-    IoLogoDiscord
-} from 'react-icons/io5'
+// import { GridItem } from '../components/grid-items'
+import { IoLogoGithub} from 'react-icons/io5'
 
 import {IoMdMail, IoIosArrowDropright} from 'react-icons/io'
 
@@ -67,8 +62,8 @@ const Page = () => {
                     after took Linux system and Network Application design course. 
                 </Paragraph>
                 <Paragraph>
-                    I'm using Java Spring mainly as a backend framework. 
-                    Currently, I'm studying CI/CD technology with Docker.
+                    I&apos;m using Java Spring mainly as a backend framework. 
+                    Currently, I&apos;m studying CI/CD technology with Docker.
                     I like to study new technology / languages and solve algorithm problems. 
                 </Paragraph>
 
@@ -118,7 +113,7 @@ const Page = () => {
                 </BioSection>
                 <BioSection>
                     <BioYear>2022</BioYear>
-                    Received bachelor's degree in School of Computer Science and
+                    Received bachelor&apos;s degree in School of Computer Science and
                     Engineering at Chung-ang University 
                 </BioSection>
             </Section>
