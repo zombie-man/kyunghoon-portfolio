@@ -12,7 +12,7 @@ const Main = ({children,router})=>{
                 <meta name="author" content="Kyunghoon Shin"/>
                 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 
-                <title>Kyunghoon It's Me</title>
+                <title>Kyunghoon It&apos;s Me</title>
             </Head>
             <Navbar path={router.asPath} />
 
